@@ -132,3 +132,115 @@ nav {
     padding: 0 0.5rem 1rem;
     color: #b3b3b3;
 }
+.nonton-hero {
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #202020;
+}
+
+.nonton-hero img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.nonton-hero-content {
+    max-width: 400px;
+}
+
+.nonton-hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nonton-hero-content p {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+/* Section Titles */
+.nonton-section-title {
+    margin: 2rem 0 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Movie Grid */
+.nonton-movie-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0 2rem 2rem;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.nonton-movie-grid::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Movie Card */
+.nonton-movie-card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nonton-movie-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nonton-movie-info {
+    margin-top: 0.5rem;
+}
+
+.nonton-movie-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nonton-movie-details {
+    font-size: 0.8rem;
+    color: #b3b3b3;
+}
+
+.nonton-movie-director {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.nonton-movie-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nonton-trailer-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nonton-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #888;
+}
+
+.nonton-icon:hover {
+    color: #e50914;
+}
