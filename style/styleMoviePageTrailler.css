@@ -1,23 +1,24 @@
-        nav {
-            background-color: #1a1a1a;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 2rem;
-        }
 
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #e50914;
-            text-decoration: none;
-        }
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
 
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e50914;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
 
         .nav-links a {
             color: white;
@@ -55,10 +56,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 3rem;
-            background-image: url('https://via.placeholder.com/1500x500'); 
-            background-position: center;
-            position: relative;
+            padding: 2rem;
+    
+            
         }
 
         .movie-hero img {
