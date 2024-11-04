@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo:hover{
+    transform: scale(1.05);
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -69,6 +72,9 @@ nav {
     background-color: #202020;
     flex-direction: row;
 }
+.hero:hover{
+    transform: scale(1.05);
+}
 
 .hero img {
     border-radius: 10px;
@@ -119,6 +125,9 @@ nav {
     width: 150px;
     text-align: center;
 }
+.movie-item:hover {
+    transform: scale(1.05);
+}
 
 .movie-item img {
     width: 100%;
@@ -143,7 +152,9 @@ nav {
     padding: 2rem;
     background-color: #202020;
 }
-
+.nonton-hero:hover{
+    transform: scale(1.05);
+}
 .nonton-hero img {
     border-radius: 10px;
     width: 100%;
@@ -202,7 +213,9 @@ nav {
     object-fit: cover;
     border-radius: 10px;
 }
-
+.nonton-movie-card:hover{
+    transform: scale(1.05);
+}
 .nonton-movie-info {
     margin-top: 0.5rem;
 }
